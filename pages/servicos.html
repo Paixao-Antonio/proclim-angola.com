@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="PT-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/servicos.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="shortcut icon" href="../img/logo-icone.png" type="image/jpg">
+    <link rel="stylesheet" href="../fonts/fontawesome-free/css/all.min.css">
+    <title>Proclim | Serviços</title>
+</head>
+<body>
+        <!--===============================================CABEÇALHO========================================================-->
+        <header class="header" id="header">
+            <a href="index.html"><img src="../img/logo-icone.png" width="60px" alt="Proclim Logo"></a>
+            <nav class="menu" id="menu">
+                <div class="close-menu" onclick="toggleMenu()"><i class="fas fa-times"></i></div>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="sobre.html">Quem Somos</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </header>
+
+        <!--===============================================SERVIÇOS======================================================-->
+        <section class="secao-servicos">
+            <div class="servicos">
+                <h1>Nossos Serviços</h1>
+                <p>Nosso foco é oferecer soluções personalizadas de limpeza industrial, garantindo ambientes limpos, organizados e em conformidade com as normas de higiene e segurança. Trabalhamos com seriedade e dedicação, buscando sempre superar as expectativas dos nossos parceiros.</p>
+                <div class="servico-container">
+                    <div class="servico">
+                        <h2>Limpeza Industrial</h2>
+                        <p>Serviços profissionais para manter seu espaço limpo e seguro.</p>
+                        <img src="../img/Limpeza-Industrial.jpg" alt="Limpeza Industrial">
+                    </div>
+                    <div class="servico">
+                        <h2>Limpeza Diária</h2>
+                        <p>Cuidamos da limpeza do seu espaço todos os dias, com eficiência e confiança.</p>
+                        <img src="../img/Limpeza-Diaria.jpg" alt="Limpeza Diária">
+                    </div>
+                    <div class="servico">
+                        <h2>Limpeza de Escritório</h2>
+                        <p>Serviço diário para manter seu ambiente de trabalho limpo, organizado e agradável.</p>
+                        <img src="../img/Limpeza-Escritorio.jpg" alt="Limpeza Diária">
+                    </div>
+                    <div class="servico">
+                        <h2>Limpeza diária por contrato</h2>
+                        <p>Manutenção diária do seu espaço com serviço profissional e contratualizado.</p>
+                        <img src="../img/Limpeza-Diaria.jpg" alt="Limpeza Diária">
+                    </div>
+                    <div class="servico">
+                        <h2>Gestão de condomínios</h2>
+                        <p>Administração completa de condomínios, com foco em organização, manutenção e bem-estar dos moradores.</p>
+                        <img src="../img/Limpeza-Diaria.jpg" alt="Limpeza Diária">
+                    </div>
+                    <div class="servico">
+                        <h2>Manuntenção de AC</h2>
+                        <p>Serviço técnico para garantir o bom funcionamento e a durabilidade do seu ar condicionado.</p>
+                        <img src="../img/Limpeza-Diaria.jpg" alt="Limpeza Diária">
+                    </div>
+                    <div class="servico">
+                        <h2>Desinfestação de Pragas</h2>
+                        <p>Eliminamos vírus, bactérias e fungos, garantindo um ambiente mais seguro e saudável.</p>
+                        <img src="../img/Sanitazição.jpg" alt="Desinfestação de Pragas">
+                    </div>
+                    <div class="servico">
+                        <h2>Tratamento e Manuntenção</h2>
+                        <p>Serviços especializados para garantir o funcionamento eficiente e prolongar a vida útil dos seus equipamentos.</p>
+                        <img src="../img/Limpeza-Diaria.jpg" alt="Limpeza Diária">
+                    </div>
+                    <div class="servico">
+                        <h2>Plantio, Paisagismo de Jardins</h2>
+                        <p>Criação e cuidado de jardins, trazendo beleza e harmonia ao seu ambiente com soluções personalizadas.</p>
+                        <img src="../img/Limpeza-Diaria.jpg" alt="Limpeza Diária">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="overlay">
+
+            <h2>Pedir Orçamento</h2>
+            <div class="div-form">
+    
+                <form>
+                    <input type="text" placeholder="digite seu nome" required>
+                    <input type="email" placeholder="digite seu e-mail" required>
+                    <input type="text" placeholder="digite seu telefone (Ex: 923 000 000)" required>
+                    <select name="servicos" id="serviocos">
+                        <option value="" disabled selected>Escolha um serviço</option>
+                        <option value="1">Limpeza Industrial</option>
+                        <option value="2">Limpeza Diária</option>
+                        <option value="3">Lavagem de vidros e montras</option>
+                        <option value="4">Limpeza eventual</option>
+                        <option value="5">Gestão de condomínios</option>
+                        <option value="6">Desinfestação contra pragas</option>
+                        <option value="7">Manuntenção de AC</option>
+                        <option value="8">Plantio e Paisagismo de jardins</option>
+                        <option value="9">Lavagem de vidros e montras</option>
+                        <option value="3">Limpeza de áreas exteriores</option>
+                        <option value="10">Limpeza de tapetes, sofás, colchões etc.</option>
+                        <option value="11">trat. e manuntenção de mármores, granito etc.</option>
+                    </select>
+                </form>
+            </div>
+    
+            <div class="botao">
+                <a href="#"> <button type="button">Pedir Orçamento</button>
+                </a>
+            </div>
+    
+        </section>        
+
+            <!--===============================================FOOTER======================================================-->
+            <footer>
+                <div class="footer-container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <a href="index.html"><img src="../img/logo-icone.png" alt="Proclim Logo"></a>
+                            <p>Uma empresa de prestação de serviços de Limpeza Industrial, com capital totalmente de
+                                direito
+                                Angolano, criada aos 24 de Outubro de 2012.</p>
+                        </div>
+                        <div class="footer-col">
+                            <h5>Links de Navegação</h5>
+                            <ul class="footer-links">
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="/pages/sobre.html">Quem Somos</a></li>
+                                <li><a href="servicos.html">Serviços</a></li>
+                                <li><a href="contato.html">Contato</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col text-center">
+                            <div class="mb-3">
+                                <i class="fas fa-phone"></i> +244 926 737 341
+                            </div>
+                            <div class="mb-3">
+                                <i class="fas fa-envelope"></i> geral.proclim@gmail.com
+                            </div>
+                            <div class="mb-3">
+                                <i class="fas fa-map-marker-alt"></i> Rua Gregório José Mendes, 31 Vila Alice - Luanda
+                            </div>
+                            <div class="social-icons">
+                                <a href="#" class="fab fa-facebook"></a>
+                                <a href="#" class="fab fa-linkedin"></a>
+                                <a href="https://www.instagram.com/geral.proclim/" class="fab fa-instagram"></a>
+                                <a href="https://wa.me/+244933224949" class="fab fa-whatsapp"></a>
+                            </div>
+                            <div class="newsletter-container">
+                                <h5>Inscreva-se na nossa newsletter</h5>
+                                <div class="contacto">
+                                    <div class="contacto-container">
+                                        <i class="fas fa-envelope"></i>
+                                        <input type="email" placeholder="Digite seu e-mail">
+                                    </div>
+                                    <button type="submit">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p>
+                            &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>.Proclim Lda. Todos os direitos reservados | <a href="#">Web<span>Nova</span></a>
+                        </p>
+                    </div>
+                </div>
+            </footer>
+            
+            <!--===============================================IMPORT JAVASCRIPT======================================================-->
+            <script src="../js/script.js"></script>
+    </main>
+</body>
+</html>
